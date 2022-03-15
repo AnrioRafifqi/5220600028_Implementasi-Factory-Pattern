@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClInclude Include="Board.h" />
     <ClInclude Include="OrdinaryTiles.h" />
+    <ClInclude Include="Rocket.h" />
     <ClInclude Include="Tiles.h" />
     <ClInclude Include="TilesFactory.h" />
     <ClInclude Include="TNT.h" />
@@ -148,6 +149,7 @@
   <ItemGroup>
     <ClCompile Include="Board.cpp" />
     <ClCompile Include="OrdinaryTiles.cpp" />
+    <ClCompile Include="Rocket.cpp" />
     <ClCompile Include="Tiles.cpp" />
     <ClCompile Include="TilesFactory.cpp" />
     <ClCompile Include="TNT.cpp" />
