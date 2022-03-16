@@ -27,3 +27,8 @@ int OrdinaryTiles::getCoordinateY()
 {
 	return y;
 }
+
+void OrdinaryTiles::tap()
+{
+	cout << "Ordinary Tiles is tapped" << endl;
+}

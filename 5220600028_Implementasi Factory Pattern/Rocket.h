@@ -11,5 +11,6 @@ public:
 	int getCoordinateX();
 	int getCoordinateY();
 	void explode();
+	void tap();
 };
 

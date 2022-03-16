@@ -22,3 +22,9 @@ void Rocket::explode()
 {
 	cout << "Rocket is Exploded" << endl;
 }
+
+void Rocket::tap()
+{
+	cout << "Rocket is tapped" << endl;
+	this->explode();
+}

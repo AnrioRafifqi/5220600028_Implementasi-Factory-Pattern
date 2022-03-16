@@ -3,7 +3,8 @@
 class Tiles
 {
 public:
-	virtual Tiles createObject();
+	virtual void setCoordinate(int, int) = 0;
+	virtual void tap() = 0;
 	Tiles();
 };
 

@@ -12,6 +12,6 @@ public:
 	int getCoordinateX();
 	int getCoordinateY();
 	void explode();
-	Tiles createObject(int, int);
+	void tap();
 };
 

@@ -27,8 +27,8 @@ void TNT::explode()
 	cout << "TNT is Exploded" << endl;
 }
 
-Tiles TNT::createObject(int objX, int objY)
+void TNT::tap()
 {
-	this->setCoordinate(objX, objY);
-
+	cout << "TNT is tapped " << endl;
+	this->explode();
 }

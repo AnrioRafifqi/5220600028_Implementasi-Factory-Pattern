@@ -14,5 +14,6 @@ public:
 	void setCoordinate(int, int);
 	int getCoordinateX();
 	int getCoordinateY();
+	void tap();
 };
 
